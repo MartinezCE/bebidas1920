@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
@@ -51,12 +52,12 @@
         <section id="servicios__nosotros" class="border__nosotros section__nosotros">
             <main class="main__sectio01">
                 <section class="historia">
-                    <div class="historia__contenedor">
+                    <div class="historia__contenedor" data-aos="fade-right" data-aos-delay="30">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.036628417025!2d-58.65198858468823!3d-34.60323528045962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbecdd3056bbd%3A0x955d21ba25efdcda!2sMunicipalidad%20de%20Hurlingham!5e0!3m2!1ses!2sar!4v1638671086723!5m2!1ses!2sar"
                             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                     </div>
-                    <div class="historia__contenedor historia__contenedor--texto">
+                    <div class="historia__contenedor historia__contenedor--texto" data-aos="fade-left" data-aos-delay="50">
                         <h2>Quienes somos?</h2>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure, ipsum nam necessitatibus optio aliquam ducimus recusandae corrupti labore, asperiores veniam aperiam, repellendus eos harum ex fugiat a maxime deleniti! Nam ullam
                             odio dolor quis?
@@ -75,10 +76,10 @@
         <section id="productos__nosotros" class="border__nosotros section__nosotros">
             <main class="main__sectio02">
                 <section class="historia">
-                    <div class="historia__contenedor">
+                    <div class="historia__contenedor" data-aos="fade-right" data-aos-delay="10">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/Vdxyooz18v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="historia__contenedor historia__contenedor--texto">
+                    <div class="historia__contenedor historia__contenedor--texto" data-aos="fade-left" data-aos-delay="50">
                         <h2>Un poco de la historia de nuestro nombre</h2>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure, ipsum nam necessitatibus optio aliquam ducimus recusandae corrupti labore, asperiores veniam aperiam, repellendus eos harum ex fugiat a maxime deleniti! Nam ullam
                             odio dolor quis?
@@ -111,7 +112,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
