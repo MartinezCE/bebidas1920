@@ -2,125 +2,239 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otros productos</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
     <link rel="icon" href="../img/Favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="StyleSheet" href="../style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
+    <title>Otros | 1920</title>
 </head>
 
 <body>
-    <div class="grid__otros">
-
-        <header class="header__otros">
-            <nav class="menu">
-                <img class="menu__logo" src="../img/Logo1920.svg" alt="logo" class="logo">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a class="item__enlace" href="../index.html">Inicio</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="bebidas.html">Bebidas</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="#">Otros</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="nosotros.html">Nosotros</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="contacto.html">Contacto</a></li>
-                </ul>
-                <!-- Movil --->
-                <label for="menu">
-                <img src="../img/lista.png" alt="menu" class="logoMenu">
-               </label>
-                <input id="menu" type="checkbox">
-                <ul class="menuListaMovil">
-                    <li class="menu__item"><a class="item__enlace" href="index.html">Inicio</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="bebidas.html">Bebidas</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="#">Otros</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="nosotros.html">Nosotros</a></li>
-                    <li class="menu__item"><a class="item__enlace" href="contacto.html">Contacto</a></li>
-                </ul>
-                <!-- Movil --->
-            </nav>
-            <section class="baner">
-                <div class="baner__contenedor">
-                    <h1 class="baner__titulo" data-text="data-tex">DISFRUTA BEBIDA DE CALIDAD</h1>
-                    <button class="btn">OPEN</button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body rounded menu">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><img src="../img/Logo1920.svg" alt="logo" class="img-logo miLogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-center">
+                        <a class="nav-link " href="../index.html">Inicio</a>
+                        <a class="nav-link " href="bebidas.html">Bebidas</a>
+                        <a class="nav-link active" aria-current="page" href="#">Otros</a>
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </div>
                 </div>
-            </section>
-        </header>
-
-        <section id="servicios__bebidas" class="border">
-            <main>
-
-                <h1 class="titulo__otros">REGALOS EMPRESARIALES</h1>
-                <section class="bebidas">
+            </div>
+        </nav>
 
 
-                    <div class="oferta__card">
-                        <img class="oferta__img" src="img/Logo1920.svg" alt="oferta1">
-                        <h3 class="oferta__titulo--card">Oferta 01</h3>
-                        <p class="oferta__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt.</p>
-                        <button class="oferta__btn">Agregar</button>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active item">
+                        <img src="../img/baner.JPG" class="d-block w-100" alt="...">
                     </div>
-
-                    <div class="oferta__card">
-                        <img class="oferta__img" src="img/Logo1920.svg" alt="oferta2">
-                        <h3 class="oferta__titulo--card">Oferta 02</h3>
-                        <p class="oferta__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ipsa.</p>
-                        <button class="oferta__btn">Agregar</button>
+                    <div class="carousel-item item">
+                        <img src="../img/baner2.jpg" class="d-block w-100" alt="...">
                     </div>
-
-                    <div class="oferta__card">
-                        <img class="oferta__img" src="img/Logo1920.svg" alt="oferta3">
-                        <h3 class="oferta__titulo--card">Oferta 03</h3>
-                        <p class="oferta__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, fuga?</p>
-                        <button class="oferta__btn">Agregar</button>
+                    <div class="carousel-item item">
+                        <img src="../img/baner4.jpg" class="d-block w-100" alt="...">
                     </div>
-
-                    <div class="oferta__card">
-                        <img class="oferta__img" src="img/Logo1920.svg" alt="oferta4">
-                        <h3 class="oferta__titulo--card">Oferta 04</h3>
-                        <p class="oferta__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, quo!</p>
-                        <button class="oferta__btn">Agregar</button>
-                    </div>
-
-                    <div class="oferta__card">
-                        <img class="oferta__img" src="img/Logo1920.svg" alt="oferta5">
-                        <h3 class="oferta__titulo--card">Oferta 05</h3>
-                        <p class="oferta__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, quo!</p>
-                        <button class="oferta__btn">Agregar</button>
-                    </div>
-
-                    <div class="oferta__card">
-                        <img class="oferta__img" src="img/Logo1920.svg" alt="oferta6">
-                        <h3 class="oferta__titulo--card">Oferta 06</h3>
-                        <p class="oferta__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, quo!</p>
-                        <button class="oferta__btn">Agregar</button>
-                    </div>
-
-                    <div class="oferta__card">
-                        <img class="oferta__img" src="img/Logo1920.svg" alt="oferta6">
-                        <h3 class="oferta__titulo--card">Oferta 07</h3>
-                        <p class="oferta__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, quo!</p>
-                        <button class="oferta__btn">Agregar</button>
-                    </div>
-
-
-                </section>
-            </main>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
+    </header>
 
 
-        <footer class="footer footer__otros">
-            <div class="footer__contenedor">
-                <h3>~ 1920 ~</h3>
-                <p>Beber con moderacion. <br> Prohibida la venta a menores de 18 años</p>
-                <ul class="link">
+
+
+
+
+    <main>
+        <h1 class="text-capitalize text-center">Regalos empresariales</h1>
+        <div class="container ">
+            <div class="row  ">
+
+                <div class="col-md ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 01</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 02</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 03</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 04</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 05</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 06</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 07</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 08</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 09</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 10</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 11</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/vino01.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebida 12</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="oferta__btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer class="bg-dark text-white">
+        <div class="container  ">
+            <div class="row">
+                <!--Logo-->
+                <a href="#" class="col text-reset text-uppercase d-flex align-items-center justify-content-center">
+                    <img src="../img/Logo1920.svg" alt="logo" class="img-logo mr-2 miLogo"> ~ 1920 ~
+                </a>
+                <p class="font-wieght-bold text-uppercase d-flex justify-content-center"> Prohibida la venta a menores de 18 años</p>
+                <ul class="col list-unstyled d-flex justify-content-around">
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Twitter </a></li>
                     <li><a href="#">Instagram</a></li>
                     <li><a href="#">Gmail</a></li>
                 </ul>
             </div>
-        </footer>
-
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 
