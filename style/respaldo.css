@@ -2,11 +2,6 @@
     margin: 0!important;
 }
 
-.navbar__logo {
-    height: 80px;
-    width: auto;
-}
-
 .slide img {
     width: 100%;
     height: 300px;
@@ -22,20 +17,18 @@
     align-content: space-between;
 }
 
-.card {
-    margin: 20px;
-    width: 18rem;
-    
-   
-}
-
 .card-body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.card-btn {
+.card {
+    margin: 20px;
+    width: 18rem;
+}
+
+.oferta__btn {
     border: none;
     border-radius: 0.5rem;
     position: relative;
@@ -46,39 +39,28 @@
     font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: $color-boton;
+    color: #441fd8;
     background: transparent;
     cursor: pointer!important;
     transition: ease-out 0.5s;
-    box-shadow: inset 0 0 0 0 $color-boton;
+    box-shadow: inset 0 0 0 0 #441fd8;
 }
 
-.card-btn:hover {
+.oferta__btn:hover {
     color: white;
-    box-shadow: inset 0 -100px 0 0 $color-boton;
+    box-shadow: inset 0 -100px 0 0 #441fd8;
 }
 
-.card-btn:active {
+.oferta__btn:active {
     transform: scale(0.9);
 }
-main h1 {
-    color: #041D66;
-}
 
-.footer {
-    background-color: #293866;
-}
-
-.footer__logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 80px;
+.miLogo {
+    height: 120px;
     width: auto;
 }
-.footer__redes {
+
+.redes {
     text-decoration: none;
-    color: white;
-}
-.footer__redes:hover {
     color: white;
 }

@@ -1,0 +1,86 @@
+.navbar {
+  margin: 0 !important;
+}
+
+.navbar__logo {
+  height: 80px;
+  width: auto;
+}
+
+.slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.contenedor__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.card {
+  margin: 20px;
+  width: 18rem;
+}
+
+.card-btn {
+  border: none;
+  border-radius: 0.5rem;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #5E81EA;
+  background: transparent;
+  cursor: pointer !important;
+  transition: ease-out 0.5s;
+  box-shadow: inset 0 0 0 0 #5E81EA;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-btn:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #5E81EA;
+}
+
+.card-btn:active {
+  transform: scale(0.9);
+}
+
+main h1 {
+  color: #041D66;
+}
+
+.footer {
+  background-color: #293866;
+}
+
+.footer__logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 80px;
+  width: auto;
+}
+
+.footer__redes {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__redes:hover {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
