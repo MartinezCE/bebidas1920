@@ -97,4 +97,27 @@ main h1 {
   justify-items: center;
   align-items: center;
 }
+
+.texto--historia, .texto--ubicacion {
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+.video, .mapa {
+  overflow: hidden;
+  object-position: center;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .historia__seccion {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 /*# sourceMappingURL=main.css.map */

@@ -6,3 +6,34 @@
         align-items: center;
     }
 }
+
+.texto--historia {
+    color: map-get($map: $estilos, $key: color);
+    text-align: map-get($map: $estilos, $key: centro);
+    padding: map-get($map: $estilos, $key: 1rem);
+    font-size: map-get($map: $estilos, $key: textoFuene);
+}
+
+.texto--ubicacion {
+    @extend .texto--historia;
+}
+
+.video {
+    overflow: map-get($map: $contenedor, $key: overf);
+    object-position: map-get($map: $contenedor, $key: ob-posi);
+    object-fit: map-get($map: $contenedor, $key: ob-fit);
+    @include sizes(100%, 400px);
+}
+
+.mapa {
+    @extend .video;
+}
+
+@media (max-width: 600px) {
+    .historia__seccion {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
