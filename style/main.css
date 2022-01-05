@@ -72,6 +72,11 @@ main h1 {
   background-color: #293866;
 }
 
+.footer-titulo {
+  font-size: 1rem;
+  text-align: center;
+}
+
 .footer__logo {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -88,6 +93,55 @@ main h1 {
   color: white;
 }
 
+.footer-list {
+  list-style: none;
+}
+
+.footer-list-a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.footer-list-a:hover {
+  color: white;
+}
+
+.footer-tel, .footer-direccion {
+  text-align: center;
+}
+
+.logo-meta, .logo-twitter, .logo-instagram, .logo-gmail, .footer-telefono, .footer-ubicacion {
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.footer-telefono {
+  margin-bottom: 0;
+}
+
+.footer-ubicacion {
+  margin-bottom: 0;
+}
+
+@media (max-width: 425px) {
+  .logo-meta, .logo-twitter, .logo-instagram, .logo-gmail, .footer-telefono, .footer-ubicacion {
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
+  .logo-twitter {
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
+  .logo-instagram {
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
+  .logo-gmail {
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
+}
+
 .historia {
   margin-bottom: 2rem;
 }
@@ -99,17 +153,23 @@ main h1 {
 }
 
 .texto--historia, .texto--ubicacion {
+  margin: auto;
   color: black;
   text-align: center;
   padding: 1rem;
 }
 
 .video, .mapa {
-  overflow: hidden;
   object-position: center;
   object-fit: cover;
   height: 400px;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .mapa {
+    overflow: overlay;
+  }
 }
 
 @media (max-width: 600px) {

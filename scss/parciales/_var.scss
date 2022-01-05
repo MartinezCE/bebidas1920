@@ -3,8 +3,10 @@ $color-titulo: #041D66;
 $color-tono3: #0940E3;
 $color-tono4: #0A43F0;
 $estilos:( color: black, centro:center, textFuente: 35px, 1rem:1rem, );
-$contenedor:(overf: hidden, ob-posi: center, ob-fit: cover, );
+$contenedor:(ob-posi: center, ob-fit: cover, );
 @mixin sizes($width, $height) {
     height: $height;
     width: $width;
 }
+
+//overf: hidden,

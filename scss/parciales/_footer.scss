@@ -1,5 +1,9 @@
 .footer {
     background-color: #293866;
+    &-titulo {
+        font-size: 1rem;
+        text-align: center;
+    }
     &__logo {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -12,5 +16,70 @@
     }
     &__redes:hover {
         color: white;
+    }
+}
+
+.footer-list {
+    list-style: none;
+    &-a {
+        color: white;
+        text-decoration: none!important;
+    }
+    &-a:hover {
+        color: white;
+    }
+}
+
+.footer-tel {
+    text-align: center;
+}
+
+.footer-direccion {
+    @extend .footer-tel;
+}
+
+.logo-meta {
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+.logo-twitter {
+    @extend .logo-meta;
+}
+
+.logo-instagram {
+    @extend .logo-meta;
+}
+
+.logo-gmail {
+    @extend .logo-meta;
+}
+
+.footer-telefono {
+    @extend .logo-meta;
+    margin-bottom: 0;
+}
+
+.footer-ubicacion {
+    @extend .logo-meta;
+    margin-bottom: 0;
+}
+
+@media (max-width: 425px) {
+    .logo-meta {
+        margin-right: 5px;
+        margin-bottom: 2px;
+    }
+    .logo-twitter {
+        margin-right: 5px;
+        margin-bottom: 2px;
+    }
+    .logo-instagram {
+        margin-right: 5px;
+        margin-bottom: 2px;
+    }
+    .logo-gmail {
+        margin-right: 5px;
+        margin-bottom: 2px;
     }
 }

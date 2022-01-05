@@ -8,6 +8,7 @@
 }
 
 .texto--historia {
+    margin: auto;
     color: map-get($map: $estilos, $key: color);
     text-align: map-get($map: $estilos, $key: centro);
     padding: map-get($map: $estilos, $key: 1rem);
@@ -19,7 +20,7 @@
 }
 
 .video {
-    overflow: map-get($map: $contenedor, $key: overf);
+    //  overflow: map-get($map: $contenedor, $key: overf);
     object-position: map-get($map: $contenedor, $key: ob-posi);
     object-fit: map-get($map: $contenedor, $key: ob-fit);
     @include sizes(100%, 400px);
@@ -27,6 +28,12 @@
 
 .mapa {
     @extend .video;
+}
+
+@media (max-width: 768px) {
+    .mapa {
+        overflow: overlay;
+    }
 }
 
 @media (max-width: 600px) {
