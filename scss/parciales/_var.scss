@@ -1,12 +1,10 @@
-$color-boton:#5E81EA;
-$color-titulo: #041D66;
-$color-tono3: #0940E3;
-$color-tono4: #0A43F0;
+$color-boton:#E98074;
+$color-titulo: #E85A4F;
+$color-fondo:#EAE7dc;
+$color-fondoFooder:#E98074;
 $estilos:( color: black, centro:center, textFuente: 35px, 1rem:1rem, );
 $contenedor:(ob-posi: center, ob-fit: cover, );
 @mixin sizes($width, $height) {
     height: $height;
     width: $width;
 }
-
-//overf: hidden,

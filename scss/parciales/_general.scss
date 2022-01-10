@@ -1,3 +1,7 @@
-main h1 {
-    color: #041D66;
-}
+    main h1 {
+        color: $color-titulo;
+    }
+    
+    main {
+        background-color: $color-fondo;
+    }
