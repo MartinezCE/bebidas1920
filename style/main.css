@@ -82,6 +82,10 @@
   text-align: center;
 }
 
+.card-select {
+  width: 4rem;
+}
+
 main h1 {
   color: #E85A4F;
 }
