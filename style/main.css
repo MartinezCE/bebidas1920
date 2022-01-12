@@ -205,6 +205,8 @@ main {
 
 .historia-linea {
     border-bottom: solid #cb997e 1px;
+    background: #293860;
+    background: linear-gradient(90deg, #293860 4%, #cb997e 57%, #00d4ff 100%);
 }
 
 .texto--historia,
