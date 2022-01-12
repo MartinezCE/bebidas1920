@@ -50,9 +50,21 @@
     }
     &-text {
         text-align: center;
+        display: -webkit-box;
+        -webkit-box-orient: vertical !important;
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+        overflow: hidden;
+    }
+    &-text:hover {
+        cursor: default;
+        display: block;
     }
     &-select {
         width: 6rem;
     }
-   
+}
+
+.precio-anterior {
+    text-decoration: line-through;
 }
