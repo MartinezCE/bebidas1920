@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spartan:wght@300&display=swap");
 .navbar {
     margin: 0 !important;
     background-color: #EAE7dc !important;
@@ -37,6 +37,12 @@
     border: 1px solid rgba(255, 255, 255, 0.125);
     margin: 20px;
     width: 18rem;
+}
+
+.card-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-btn {
@@ -79,6 +85,7 @@
 }
 
 .card-text {
+    font-family: 'Spartan', sans-serif;
     text-align: center;
     display: -webkit-box;
     -webkit-box-orient: vertical !important;
@@ -98,6 +105,11 @@
 
 .precio-anterior {
     text-decoration: line-through;
+    color: gray;
+}
+
+.precio-actual {
+    font-weight: bold;
 }
 
 main h1 {
