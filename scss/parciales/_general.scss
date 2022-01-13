@@ -1,8 +1,9 @@
-    main h1 {
-        -webkit-box-orient: vertical !important;
-        color: $color-titulo;
-    }
-    
-    main {
-        background-color: $color-fondo;
-    }
+main h1 {
+    padding-top: 2rem;
+    font-family: 'Spartan', sans-serif;
+    color: $color-titulo;
+}
+
+main {
+    background-color: $color-fondo;
+}

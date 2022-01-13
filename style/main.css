@@ -114,6 +114,8 @@
 }
 
 main h1 {
+    padding-top: 2rem;
+    font-family: 'Spartan', sans-serif;
     color: #E85A4F;
 }
 
@@ -218,7 +220,7 @@ main {
 }
 
 .historia-linea {
-    border-bottom: solid #cb997e 1px;
+    border-bottom: solid #cb997e 2px !important;
     background: #293860;
     background: linear-gradient(90deg, #293860 4%, #cb997e 57%, #00d4ff 100%);
 }
