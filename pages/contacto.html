@@ -64,23 +64,28 @@
     <main>
         <h1 class="text-capitalize text-center">CONTACTO</h1>
 
-        <div class="container ">
+        <div class="container formulario">
+            <p class="formulario-text">Envianos tu consulta, para ser contactado a la brevedad por uno de nuestros especialistas.</p>
+            <p class="formulario-text">Por favor, llenar el siguiente formulario:</p>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    <input style="margin-bottom: 2rem;" type="text" class="form-control" placeholder="Nombre" aria-label="First name">
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
                 </div>
             </div>
 
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <div class="mb-3" style="margin-bottom: 2rem;">
+                <label for="exampleFormControlInput1" class="form-label formulario-text">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <label for="exampleFormControlTextarea1" class="form-label formulario-text">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <button class="card-btn formulario-btn formulario-text">Enviar</button>
             </div>
         </div>
     </main>

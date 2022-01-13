@@ -1,0 +1,11 @@
+.formulario {
+    margin-top: 15vh;
+    min-height: 100vh;
+    &-text {
+        font-family: 'Spartan', sans-serif;
+        color: black;
+    }
+    &-btn {
+        height: 100%;
+    }
+}
