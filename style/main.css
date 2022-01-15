@@ -123,6 +123,12 @@ main {
     background-color: #EAE7dc;
 }
 
+h2 {
+    padding-top: 2rem;
+    font-family: 'Spartan', sans-serif;
+    color: #E85A4F;
+}
+
 .footer {
     font-family: 'Spartan', sans-serif;
     background-color: #E98074;
@@ -219,10 +225,9 @@ main {
     align-items: center;
 }
 
-hr {
-    height: 1px;
+.historia-linea {
     color: #E85A4F;
-    background-image: linear-gradient( 90deg, rgba(red, 0), rgba(#E85A4F, 1) 50%, rgba(#E85A4F, 0) 100%);
+    height: 2.5px;
 }
 
 .texto--historia,
