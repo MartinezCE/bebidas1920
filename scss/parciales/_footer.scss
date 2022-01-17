@@ -18,9 +18,6 @@
     &__redes:hover {
         color: white;
     }
-    &-contacto {
-        margin-left: 20px;
-    }
 }
 
 .footer-list {
@@ -28,6 +25,8 @@
     &-a {
         color: white;
         text-decoration: none!important;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     &-a:hover {
         color: white;

@@ -190,10 +190,6 @@ h2 {
     color: white;
 }
 
-.footer-contacto {
-    margin-left: 20px;
-}
-
 .footer-list {
     list-style: none;
 }
@@ -201,6 +197,8 @@ h2 {
 .footer-list-a {
     color: white;
     text-decoration: none !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .footer-list-a:hover {
