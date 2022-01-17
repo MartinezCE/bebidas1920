@@ -64,3 +64,12 @@
         height: 200px;
     }
 }
+
+@media (min-width: 768px) {
+    .texto--historia {
+        font-size: 1.5 rem !important;
+    }
+    .texto--ubicacion {
+        font-size: 1.5 rem !important;
+    }
+}
