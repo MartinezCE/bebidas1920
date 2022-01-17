@@ -1,0 +1,34 @@
+        .subtitulos {
+            font-family: 'Spartan', sans-serif;
+            color: black;
+            margin: 1rem;
+        }
+        
+        .envios {
+            margin: 8px;
+        }
+        
+        .pagos {
+            margin: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .pagos {
+                margin-bottom: 2rem;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .pagos-amex {
+                margin-bottom: 2rem;
+            }
+            .pagos-paypal {
+                margin-bottom: 2rem;
+            }
+        }
+        
+        @media (min-width: 425px) {
+            .pagos-paypal {
+                margin-bottom: 2rem;
+            }
+        }

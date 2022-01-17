@@ -1,4 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spartan:wght@300&display=swap");
+.subtitulos {
+    font-family: 'Spartan', sans-serif;
+    color: black;
+    margin: 1rem;
+}
+
+.envios {
+    margin: 8px;
+}
+
+.pagos {
+    margin: 8px;
+}
+
+@media (max-width: 768px) {
+    .pagos {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .pagos-amex {
+        margin-bottom: 2rem;
+    }
+    .pagos-paypal {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 425px) {
+    .pagos-paypal {
+        margin-bottom: 2rem;
+    }
+}
+
 .navbar {
     font-family: 'Spartan', sans-serif;
     margin: 0 !important;
@@ -89,7 +124,7 @@
     font-family: 'Spartan', sans-serif;
     text-align: center;
     display: -webkit-box;
-    -webkit-box-orient: vertical !important;
+    -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
     line-clamp: 5;
     overflow: hidden;
@@ -153,6 +188,10 @@ h2 {
 
 .footer__redes:hover {
     color: white;
+}
+
+.footer-contacto {
+    margin-left: 20px;
 }
 
 .footer-list {
@@ -250,8 +289,19 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    .video,
     .mapa {
-        overflow: overlay;
+        margin: 0;
+        padding: 0;
+    }
+    .mapa {
+        display: flex;
+        padding: 0 !important;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 0;
     }
 }
 
