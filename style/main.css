@@ -316,16 +316,6 @@ h2 {
     }
 }
 
-@media (min-width: 768px) {
-    .texto--historia,
-    .texto--ubicacion {
-        font-size: 1.5 rem !important;
-    }
-    .texto--ubicacion {
-        font-size: 1.5 rem !important;
-    }
-}
-
 .formulario {
     margin-top: 15vh;
     min-height: 100vh;
